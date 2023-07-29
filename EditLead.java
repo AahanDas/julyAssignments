@@ -56,6 +56,7 @@ public class EditLead {
 		dr.findElement(By.name("importantNote")).sendKeys("importantNote Description");
 		dr.findElement(By.name("submitButton")).click();
 		System.out.println("Page Title after Edit Lead: "+dr.getTitle());
+		dr.close();
 		
 		
 		

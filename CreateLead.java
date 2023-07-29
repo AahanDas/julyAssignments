@@ -47,6 +47,7 @@ public class CreateLead {
 		dr.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("mrdipti@gmail.com");
 		dr.findElement(By.className("smallSubmit")).click();
 		System.out.println("Page Title: "+dr.getTitle());
+		dr.close();
 
 	}
 
